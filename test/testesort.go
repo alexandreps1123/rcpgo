@@ -10,7 +10,7 @@ func TestBubbleSort() {
 	var a []int
 
 	for i := 0; i < 100; i++ {
-		a = append(a, rand.Intn(10))
+		a = append(a, rand.Intn(100))
 	}
 
 	sort.BubbleSort(a)
@@ -23,7 +23,7 @@ func TestQuickSort() {
 	var a []int
 
 	for i := 0; i < 100; i++ {
-		a = append(a, rand.Intn(10))
+		a = append(a, rand.Intn(100))
 	}
 
 	//(array, indice_primeiro_elemento, indice_ultimo_elemento)
